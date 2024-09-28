@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_server_menu">Додати сервер</string>
+    <string name="add_server_list">Додати сервер</string>
+
+    <string name="settings_menu">Налаштунки</string>
+    <string name="about_menu">Про програму</string>
+    <string name="disconnect_menu">Відключити усе</string>
+
+    <string name="about_label">Про програму</string>
+    <string name="settings_label">Налаштунки</string>
+    <string name="join_label">Приєднання до каналу</string>
+    <string name="users_label">Користувачі</string>
+    <string name="channels_label">Канали</string>
+    <string name="add_server_label">Новий сервер</string>
+    <string name="edit_server_label">Редагувати сервер</string>
+
+    <string name="server_title">Назва</string>
+    <string name="server_host">Хост</string>
+    <string name="server_port">Порт</string>
+    <string name="server_password">Пароль</string>
+    <string name="server_useSSL">Використовувати SSL</string>
+    <string name="server_autoconnect">Автопідключення при старті</string>
+    <string name="server_channels">Канали</string>
+    <string name="server_save">Зберегти</string>
+    <string name="select_charset">Обрати кодування</string>
+    <string name="nickname">Нікнайм</string>
+    <string name="aliases">Альтернативні нікнейми</string>
+    <string name="ident">Ідент</string>
+    <string name="realname">Реальне ім\'я</string>
+
+    <string name="server">Сервер</string>
+    <string name="authentication">Аутентифікація</string>
+    <string name="channel">Канал</string>
+    <string name="channels">Канали</string>
+    <string name="commands">Команди</string>
+    <string name="user">Користувач</string>
+    <string name="join">Приєднатися</string>
+    <string name="join_channel">Приєднатись до каналу</string>
+    <string name="close">Закрити</string>
+    <string name="users">Користувачі</string>
+    <string name="connect">Підключитись</string>
+    <string name="disconnect">Відключитись</string>
+    <string name="edit">Редагувати</string>
+    <string name="delete">Видалити</string>
+    <string name="on_connect">При підключенні</string>
+    <string name="preferences">Опції</string>
+    <string name="charset">Кодування</string>
+
+    <string name="action_remove">Видалити</string>
+    <string name="action_add">Додати</string>
+    <string name="action_ok">Гаразд</string>
+    <string name="action_cancel">Відміна</string>
+    <string name="negative_button">Ні</string>
+
+    <string name="alias_add_description">Ці псевдоніми будуть використовуватися, якщо ваш основний нікнейм недоступний</string>
+    <string name="channel_add_description">До цих каналів програма зайде автоматично після підключення</string>
+    <string name="command_add_description">Список команд до виконання після підключення</string>
+
+    <string name="auth_description">Yaaic буде виконувати вашу аутентифікацію на сервері після підключення зазначеним чином</string>
+    <string name="auth_nickserv">Аутентифікація з NickServ</string>
+    <string name="auth_nickserv_password">Пароль NickServ</string>
+    <string name="auth_sasl">Аутентифікація через SASL</string>
+    <string name="auth_sasl_username">Користувач SASL</string>
+    <string name="auth_sasl_password">Пароль SASL</string>
+
+    <string name="validation_blank_title">Назва серверу не може бути порожнюю</string>
+    <string name="validation_blank_host">Хост не може бути порожнім</string>
+    <string name="validation_invalid_port">Вкажіть номер порта</string>
+    <string name="validation_unsupported_charset">Це кодування не підтримується вашим приладом</string>
+    <string name="validation_title_used">Уже існує сервер з таким ім\'ям</string>
+    <string name="validation_blank_nickname">Нікнейм не може бути порожнім</string>
+    <string name="validation_blank_ident">Ідент не може бути порожнім</string>
+    <string name="validation_blank_realname">Реальне ім\'я не може бути порожнім</string>
+    <string name="validation_invalid_nickname">Неправильний нікнейм</string>
+    <string name="validation_invalid_ident">Неправильний ідент</string>
+
+    <string name="only_usable_from_channel">Тільки використання у межах каналу</string>
+    <string name="only_usable_from_channel_or_query">Тільки використання у межах каналу чи запиту</string>
+    <string name="chat_only_form_channel">Ви можете чатитися тільки у межах каналу чи запиту</string>
+    <string name="reconnect_after_disconnect">Ви були відключені від %1$s. Чи хочете ви підключитися знову?</string>
+    <string name="disconnect_before_editing">Відключіться від сервера перед редагуванням</string>
+    <string name="unknown_command">Невідома команда: %1$s</string>
+    <string name="command_syntax">Синтаксис: %1$s</string>
+    <string name="invalid_number_of_params">Невірна кількість параметрів</string>
+    <string name="close_server_window">Ви не можете закрити вікно сервера</string>
+    <string name="dcc_only_send">Дозволена тільки ВІДПРАВКА</string>
+    <string name="dcc_file_not_found">Файл не знайдено: %1$s</string>
+    <string name="dcc_waiting_accept">Очікування підвердження %1$s передачі файлу</string>
+    <string name="text_missing">Текст відсутній</string>
+    <string name="available_commands">Доступні команди:</string>
+    <string name="logical_or">чи</string>
+    <string name="query_to_channel">Ви не можете відкривати запити до каналів</string>
+    <string name="query_exists">Запит уже існує</string>
+    <string name="line_missing">Рядок відсутній</string>
+    <string name="nickname_in_use">Нікнейм %1$s уже використувується</string>
+    <string name="irc_login_error">Не вдалося залогінитися на сервері %1$s:%2$d</string>
+    <string name="could_not_connect">Не вдалося підключитися до %1$s:%2$d</string>
+
+    <string name="command_desc_amsg">Відправити повідомлення в усі канали</string>
+    <string name="command_desc_away">Встановити статус відсутності</string>
+    <string name="command_desc_back">Вимкнути статус відсутності</string>
+    <string name="command_desc_close">Закрити поточне вікно</string>
+    <string name="command_desc_dcc">Відправити файл іншому користувачу</string>
+    <string name="command_desc_deop">Видалити статус оператора у користувача</string>
+    <string name="command_desc_devoice">Видалити статус голоса у користувача</string>
+    <string name="command_desc_echo">Друкувати текст у вікно</string>
+    <string name="command_desc_help">Показати усі доступні команди</string>
+    <string name="command_desc_join">Приєднатися до каналу</string>
+    <string name="command_desc_kick">Викинути користувача</string>
+    <string name="command_desc_me">Виконати дію</string>
+    <string name="command_desc_mode">Змінити режим каналу</string>
+    <string name="command_desc_msg">Відправити повідомлення в канал чи іншому користувачу</string>
+    <string name="command_desc_names">Показати список користувачів у каналі</string>
+    <string name="command_desc_nick">Змінити свій нікнейм</string>
+    <string name="command_desc_notice">Відправити об\'яву іншому користувачу</string>
+    <string name="command_desc_op">Дати користувачу статус оператора</string>
+    <string name="command_desc_part">Покинути поточний канал</string>
+    <string name="command_desc_query">Відкрити приватний чат із користувачем</string>
+    <string name="command_desc_quit">Відключитися від сервера</string>
+    <string name="command_desc_raw">Відправити сирцевий рядок серверу</string>
+    <string name="command_desc_topic">Показати чи змінити теперішню тему</string>
+    <string name="command_desc_voice">Дати користувачу статус голоса</string>
+    <string name="command_desc_whois">Отримати інформацію про користувача</string>
+
+    <string name="notification_running">Yaaic працює</string>
+    <string name="notification_not_connected">Не підключений</string>
+    <string name="notification_connected">Підключений до %1$s</string>
+    <string name="notification_disconnected">Відключений від %1$s</string>
+    <string name="notification_mentions">Нові повідомлення в: %1$s</string>
+
+    <string name="message_connected">Підключено до %1$s</string>
+    <string name="message_now_login">Виконується логування ...</string>
+    <string name="message_login_done">Логування на сервері завершено.</string>
+    <string name="message_motd_suppressed">MOTD приглушений. Для перегляду, використовуйте команду ‘/motd’.</string>
+    <string name="message_deop">%1$s зняв оператора з %2$s</string>
+    <string name="message_devoice">%1$s зняв голоса з %2$s</string>
+    <string name="message_invite_you">%1$s запросив вас до %2$s</string>
+    <string name="message_invite_someone">%1$s запросив %2$s з %3$s</string>
+    <string name="message_join">%1$s зайшов</string>
+    <string name="message_kick">%1$s викинутий %2$s</string>
+    <string name="message_rename">%1$s тепер відомий як %2$s</string>
+    <string name="message_self_rename">Тепер ви відомі як %1$s</string>
+    <string name="message_op">%1$s дав оператора %2$s</string>
+    <string name="message_part">%1$s покинув</string>
+    <string name="message_quit">%1$s вийшов (%2$s)</string>
+    <string name="message_topic">Тема: %1$s</string>
+    <string name="message_topic_set">%1$s встановив тему: %2$s</string>
+    <string name="message_voice">%1$s дав голоса %2$s</string>
+    <string name="message_remove_channel_key">%1$s видалив ключ каналу</string>
+    <string name="message_set_channel_key">%1$s встановив ключ каналу: %2$s</string>
+    <string name="message_set_channel_secret">%1$s встановив пароль каналу</string>
+    <string name="message_set_channel_public">%1$s встановив канал як публічний</string>
+    <string name="message_set_channel_private">%1$s встановив канал як приватний</string>
+    <string name="message_set_channel_limit">%1$s встановив ліміт у: %2$s</string>
+    <string name="message_remove_channel_limit">%1$s видалив ліміт каналу</string>
+    <string name="message_set_ban">%1$s видав бан для: %2$s</string>
+    <string name="message_remove_ban">%1$s зняв бан з: %2$s</string>
+    <string name="message_set_topic_protection">%1$s встановив захист теми</string>
+    <string name="message_remove_topic_protection">%1$s відключив захист теми</string>
+    <string name="message_disable_external">%1$s вимкнув зовнішні повідомлення</string>
+    <string name="message_enable_external">%1$s увімкнув зовнішні повідомлення</string>
+    <string name="message_set_invite_only">%1$s встановив тільки по запрошенню</string>
+    <string name="message_remove_invite_only">%1$s видалив тільки по запрошенню</string>
+    <string name="message_set_moderated">%1$s встановив модерацію</string>
+    <string name="message_remove_moderated">%1$s видалив модерацію</string>
+    <string name="message_disconnected">Відключено</string>
+    <string name="message_not_connected">Не підключено</string>
+    <string name="message_users_on_chan">Користувачі у %1$s:</string>
+
+    <string name="user_action_reply">Відповісти</string>
+    <string name="user_action_query">Чат із користувачем</string>
+    <string name="user_action_op">Дати оператора</string>
+    <string name="user_action_deop">Зняти оператора</string>
+    <string name="user_action_voice">Дати голоса</string>
+    <string name="user_action_devoice">Зняти голоса</string>
+    <string name="user_action_kick">Викинути з каналу</string>
+    <string name="user_action_ban">Забанити</string>
+
+    <string name="settings_connection">Підключення</string>
+    <string name="settings_reconnect_title">Перепідключення</string>
+    <string name="settings_reconnect_desc">Автоматичне перепідключення при відключенні</string>
+
+    <string name="settings_reconnect_interval_title">Інтервал перепідключення</string>
+    <string name="settings_reconnect_interval_desc">Число у хвилинах між спробами перепідключення</string>
+    <string name="settings_reconnect_interval_dialog_title">Інтервал перепідключення</string>
+
+    <string name="settings_ignore_motd_title">Ігнорувати MOTD</string>
+    <string name="settings_ignore_motd_desc">Не показувати автоматичні повідомлення ‘Message of the Day’, надіслані сервером</string>
+
+    <string name="settings_chat">Чат</string>
+    <string name="settings_icons_title">Показувати іконки</string>
+    <string name="settings_icons_desc">Показувати іконки для виділення подій</string>
+    <string name="settings_colors_title">Показувати кольори</string>
+    <string name="settings_colors_desc">Показувати кольори для виділення подій</string>
+    <string name="settings_colors_nick_title">Колірувати нікнейми</string>
+    <string name="settings_colors_nick_desc">Показувати нікнейми в різних кольорах</string>
+    <string name="settings_timestamp_title">Показувати відбитки часу</string>
+    <string name="settings_timestamp_desc">Додавати префікси до повідомлень у вигляді відбитків часу</string>
+    <string name="settings_24h_title">24 годинний формат</string>
+    <string name="settings_24h_desc">Використовувати 24 годинний формат для відбітків часу</string>
+
+    <string name="settings_highlight">highlight</string>
+    <string name="settings_sound_highlight_title">Звук на HighLight</string>
+    <string name="settings_sound_highlight_desc">Відтворювати звук якщо ваше ім\'я згадується</string>
+    <string name="settings_vibrate_highlight_title">Вібрувати на HighLight</string>
+    <string name="settings_vibrate_highlight_desc">Вібрувати якщо ваше ім\'я згадується</string>
+
+    <string name="settings_misc">Різне</string>
+    <string name="settings_quitmessage_title">Повідомлення виходу</string>
+    <string name="settings_quitmessage_desc">Повідомлення показуватиметься підчас виходу</string>
+    <string name="settings_quitmessage_dialog_title">Повідомлення виходу</string>
+    <string name="settings_quitmessage_dialog_desc">Це повідомлення буде показуватися підчас відключення:</string>
+    <string name="settings_fontsize_title">Розмір шрифтів</string>
+    <string name="settings_fontsize_desc">Встановити глобальний розмір шрифтів</string>
+    <string name="settings_fontsize_dialog_title">Розмір шрифтів</string>
+    <string name="settings_voice_recognition_title">Розпізнавання голосу</string>
+    <string name="settings_voice_recognition_desc">Показувати кнопку розпізнавання голосу</string>
+    <string name="settings_joinpartquit_title">Показувати join, part та quit</string>
+    <string name="settings_joinpartquit_desc">Показувати join, part і quit повідомлення у каналах</string>
+    <string name="settings_noticeserverwindow_title">Вікно оголошень сервера</string>
+    <string name="settings_noticeserverwindow_desc">Показувати вікно оголошень сервера</string>
+    <string name="settings_mirc_colors_title">Колірувати повідомлення</string>
+    <string name="settings_mirc_colors_desc">Показувати повідомлення у кольорах mIRC</string>
+    <string name="settings_graphical_smilies_title">Показувати графічні смайли</string>
+    <string name="settings_graphical_smilies_desc">Текстові смайли будуть відображатися графічними смайлами у чатах</string>
+    <string name="settings_autocorrect_text_title">Автокоригування вводу</string>
+    <string name="settings_autocorrect_text_desc">Автокоригування тексту за допомогою словника</string>
+    <string name="settings_autocap_sentences_title">Авто-заголовні літери</string>
+    <string name="settings_autocap_sentences_desc">Автоматично заголовляти перші слова речень</string>
+    <string name="settings_ime_extract_title">Повноекранна клавіатура</string>
+    <string name="settings_ime_extract_desc">Використовувати повноекранну клавіатуру в портретному режимі</string>
+    <string name="settings_history_size_title">Розмір історії</string>
+    <string name="settings_history_size_desc">Кількість рядків конференції, що буде збережено</string>
+</resources>

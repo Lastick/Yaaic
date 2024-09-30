@@ -198,7 +198,7 @@
     <string name="settings_timestamp_title">Показувати відбитки часу</string>
     <string name="settings_timestamp_desc">Додавати префікси до повідомлень у вигляді відбитків часу</string>
     <string name="settings_24h_title">24 годинний формат</string>
-    <string name="settings_24h_desc">Використовувати 24 годинний формат для відбітків часу</string>
+    <string name="settings_24h_desc">Використовувати 24 годинний формат для відбитків часу</string>
 
     <string name="settings_highlight">highlight</string>
     <string name="settings_sound_highlight_title">Звук на HighLight</string>

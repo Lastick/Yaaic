@@ -63,6 +63,8 @@ public class AddServerActivity extends SherlockActivity implements OnClickListen
     private static final int REQUEST_CODE_COMMANDS       = 2;
     private static final int REQUEST_CODE_ALIASES        = 3;
     private static final int REQUEST_CODE_AUTHENTICATION = 4;
+    private static final int IRC_PORT_DEFAULT            = 6667;
+    private static final int IRC_PORT_SSL_DEFAULT        = 6697;
 
     private Server server;
     private Authentication authentication;
@@ -94,6 +96,7 @@ public class AddServerActivity extends SherlockActivity implements OnClickListen
         ((Button) findViewById(R.id.channels)).setOnClickListener(this);
         ((Button) findViewById(R.id.commands)).setOnClickListener(this);
         ((Button) findViewById(R.id.authentication)).setOnClickListener(this);
+        ((CheckBox) findViewById(R.id.useSSL)).setOnClickListener(this);
 
         Spinner spinner = (Spinner) findViewById(R.id.charset);
         String[] charsets = getResources().getStringArray(R.array.charsets);
@@ -265,6 +268,29 @@ public class AddServerActivity extends SherlockActivity implements OnClickListen
                 setResult(RESULT_CANCELED);
                 finish();
                 break;
+
+            case R.id.useSSL:
+                fixPort();
+                break;
+        }
+    }
+
+    /**
+     * Auto fix port.
+     */
+    private void fixPort() {
+        String irc_port = String.valueOf(IRC_PORT_DEFAULT);
+        String irc_port_ssl = String.valueOf(IRC_PORT_SSL_DEFAULT);
+
+        Boolean useSSL = ((CheckBox) findViewById(R.id.useSSL)).isChecked();
+        String port = ((EditText) findViewById(R.id.port)).getText().toString();
+
+        if (useSSL && port.matches(irc_port)) {
+            port = port.replace(irc_port, irc_port_ssl);
+            ((EditText) findViewById(R.id.port)).setText(port);
+        } else if (!useSSL && port.matches(irc_port_ssl)) {
+            port = port.replace(irc_port_ssl, irc_port);
+            ((EditText) findViewById(R.id.port)).setText(port);
         }
     }
 

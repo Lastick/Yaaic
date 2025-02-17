@@ -137,6 +137,14 @@ public class AddServerActivity extends SherlockActivity implements OnClickListen
                     }
                 }
             }
+        } else {
+            Boolean useSSL = ((CheckBox) findViewById(R.id.useSSL)).isChecked();
+
+            if (!useSSL) {
+                ((EditText) findViewById(R.id.port)).setText(String.valueOf(IRC_PORT_DEFAULT));
+            } else {
+                ((EditText) findViewById(R.id.port)).setText(String.valueOf(IRC_PORT_SSL_DEFAULT));
+            }
         }
 
         // Disable suggestions for host name
